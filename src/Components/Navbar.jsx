@@ -3,7 +3,7 @@ import { FiSun } from 'react-icons/fi';
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0  bg-white z-50">
       <nav className="px-5 py-3 shadow-lg">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">

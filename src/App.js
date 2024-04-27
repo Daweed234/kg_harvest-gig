@@ -1,9 +1,11 @@
-import Navbar from "./Pages/Navbar";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
 
 const App = () => {
   return(
 <>
 <Navbar />
+<Home />
 </>
   );
 }
