@@ -7,11 +7,11 @@ const Navbar = () => {
       <nav className="px-5 py-3 shadow-lg">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
-            <p className="font-bold text-lg">KG Harvest</p>
+            <p className="font-bold text-lg hover:cursor-pointer">KG Harvest</p>
             <div className="flex justify-center items-center flex-grow">
-              <p className="text-sm md:text-base hover:-translate-y-3 duration-300 font-medium">Home</p>
-              <p className="ml-8 text-sm md:text-base hover:-translate-y-3 duration-300 md:ml-12 font-medium">About</p>
-              <p className="ml-8 text-sm md:text-base hover:-translate-y-3 duration-300 md:ml-12 font-medium">Services</p>
+              <p className="text-sm md:text-base hover:-translate-y-3 duration-300 font-medium hover:cursor-pointer">Home</p>
+              <p className="ml-8 text-sm md:text-base hover:-translate-y-3 duration-300 md:ml-12 font-medium hover:cursor-pointer">About</p>
+              <p className="ml-8 text-sm md:text-base hover:-translate-y-3 duration-300 md:ml-12 font-medium hover:cursor-pointer">Services</p>
             </div>
             <div className="flex flex-row gap-5">
             <FiSun className="text-xl mt-3 hover:-translate-y-3 duration-300"/>
