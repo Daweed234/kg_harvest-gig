@@ -3,10 +3,8 @@ import Image from "../Img/image.jpg";
 
 const About = () => {
     return (
-        <div className="h-screen ml-12">
-            <p className="flex justify-center items-center mt-10 text-4xl font-bold">
-                About Us
-            </p>
+        <div className="h- ml-12">
+            <p className="flex justify-center items-center mt-10 text-4xl font-bold">About Us</p>
             <div className="mt-10">
                 <div className="flex flex-row gap-32">
                     <div className="flex flex-col">
@@ -31,7 +29,7 @@ const About = () => {
                     </div>
                     <div>
                         <div className="flex flex-row">
-                            <img className="w-56 h-5/6" src={Image} alt="" />
+                            <img className="w-56 h-5/6 rounded-l-full" src={Image} alt="" />
                             <img className="w-56 h-5/6" src={Image} alt="" />
                         </div>
                         <div className="flex flex-row">
