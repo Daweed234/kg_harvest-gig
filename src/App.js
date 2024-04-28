@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
+import Footer from "./Pages/Footer";
 
 const App = () => {
   return(
@@ -10,6 +11,7 @@ const App = () => {
 <Home />
 <About />
 <Services />
+<Footer />
 </>
   );
 }
