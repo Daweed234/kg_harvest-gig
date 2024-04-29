@@ -25,7 +25,7 @@ const About = () => {
                             accusamus nisi,
                             <br /> cumque dicta blanditiis laborum?
                         </p>
-                        <button className="px-2 py-3 bg-blue-500 text-white rounded-lg hover:-translate-y-3 hover:bg-blue-800 duration-300 mt-10">About Us</button>
+                        <button className="px-2 py-3 bg-blue-500 text-white rounded-lg hover:-translate-y-3 hover:bg-blue-600 duration-300 mt-10">About Us</button>
                     </div>
                     <div>
                         <div className="flex flex-row">

@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-row gap-5">
             <FiSun className="text-xl mt-3 hover:-translate-y-3 duration-300"/>
-            <button className="text-sm px-4 py-2 md:py-3 rounded-md text-white bg-blue-500 md:text-base hover:-translate-y-2 duration-300">
+            <button className="text-sm px-4 py-2 md:py-3 rounded-md text-white bg-blue-500 md:text-base hover:-translate-y-2 hover:bg-blue-600 duration-300">
               Contact
             </button>
             </div>

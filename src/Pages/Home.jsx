@@ -13,11 +13,11 @@ const Home = () => {
                     </p>
                     <p></p>
                     <div className=" flex flex-row gap-2 mt-5">
-                        <button className="px-5 py-3 bg-blue-500 text-white rounded-lg hover:-translate-y-3 duration-300">
+                        <button className="px-5 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg hover:-translate-y-3 duration-300">
                             Contact Us
                         </button>
                         <div className="hover:-translate-y-3 duration-300 flex flex-row">
-                            <button className="px-5 py3 text-black rounded-lg ">
+                            <button className="px-5 py-3 text-black rounded-lg ">
                                 What we offer
                             </button>
                             <MoveRight className="mt-3 w-6" />

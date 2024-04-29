@@ -6,27 +6,27 @@ import { Instagram } from "lucide-react";
 const Footer = () => {
     return (
         <>
-            <div className=" bg-gray-500 mt-10">
-                <div className="text-center justify-center px-5 py-5 text-[#111]">
+            <div className=" bg-[#111] mt-10">
+                <div className="text-center justify-center px-5 py-5 text-[#fff]">
                     <div>
-                        <p className="text-2xl font-bold">KG Harvest</p>
-                        <p>Tag line</p>
+                        <p className="text-2xl font-bold hover:text-[#cacaca]">KG Harvest</p>
+                        <p className=" hover:text-[#cacaca]">Tag line</p>
                     </div>
                     <div>
                         <ul className="flex flex-row justify-center items-center gap-10">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Contact</li>
+                            <li className=" hover:text-[#cacaca]">Home</li>
+                            <li className=" hover:text-[#cacaca]">About</li>
+                            <li className=" hover:text-[#cacaca]">Services</li>
+                            <li className=" hover:text-[#cacaca]">Contact</li>
                         </ul>
                     </div>
-                    <div className="flex flex-row text-center justify-center">
-                        <Facebook />
-                        <Twitter />
-                        <Instagram />
+                    <div className="flex flex-row text-center justify-center gap-5">
+                       <Facebook className="hover:text-[#cacaca] hover:cursor-pointer" />
+                        <Twitter className="hover:text-[#cacaca] hover:cursor-pointer" />
+                        <Instagram className="hover:text-[#cacaca] hover:cursor-pointer" />
                     </div>
                     <div>
-                        <p>
+                        <p className=" hover:text-[#cacaca]">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
                             animi aliquam, <br /> sequi voluptatum eveniet ipsam ducimus, ea
                             iure aperiam quo asperiores doloremque dolore?
