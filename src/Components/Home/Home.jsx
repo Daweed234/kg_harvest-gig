@@ -1,5 +1,4 @@
 import React from "react";
-
 import { MoveRight } from "lucide-react";
 
 const Home = () => {
