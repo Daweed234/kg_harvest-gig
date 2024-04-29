@@ -1,9 +1,11 @@
 import React from "react";
-import Image from "../Img/image.jpg";
+import Image from "../../Img/image.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="h- ml-12">
+        <section id="About">
+             <div className="h- ml-12">
             <p className="flex justify-center items-center mt-10 text-4xl font-bold">About Us</p>
             <div className="mt-10">
                 <div className="flex flex-row gap-32">
@@ -25,8 +27,10 @@ const About = () => {
                             accusamus nisi,
                             <br /> cumque dicta blanditiis laborum?
                         </p>
+                        <Link to='/Aboutus'> 
                         <button className="px-2 py-3 bg-blue-500 text-white rounded-lg hover:-translate-y-3 hover:bg-blue-600 duration-300 mt-10">About Us</button>
-                    </div>
+                        </Link>
+                                            </div>
                     <div>
                         <div className="flex flex-row">
                             <img className="w-56 h-5/6 rounded-l-full" src={Image} alt="" />
@@ -41,6 +45,7 @@ const About = () => {
             </div>
 
         </div>
+        </section>
     );
 };
 

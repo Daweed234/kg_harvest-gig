@@ -1,5 +1,6 @@
 import React from "react";
-import { FiSun } from 'react-icons/fi';
+import { FiSun } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,15 +10,23 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <p className="font-bold text-lg hover:cursor-pointer">KG Harvest</p>
             <div className="flex justify-center items-center flex-grow">
-              <p className="text-sm md:text-base hover:-translate-y-3 duration-300 font-medium hover:cursor-pointer">Home</p>
-              <p className="ml-8 text-sm md:text-base hover:-translate-y-3 duration-300 md:ml-12 font-medium hover:cursor-pointer">About</p>
-              <p className="ml-8 text-sm md:text-base hover:-translate-y-3 duration-300 md:ml-12 font-medium hover:cursor-pointer">Services</p>
+              <Link to={"/"}>
+                <p className="text-sm md:text-base hover:-translate-y-1 duration-300 font-medium hover:cursor-pointer">
+                  Home
+                </p>
+              </Link>
+             <p className="ml-8 text-sm md:text-base hover:-translate-y-1 duration-300 md:ml-12 font-medium hover:cursor-pointer">
+                About
+              </p>
+              <p className="ml-8 text-sm md:text-base hover:-translate-y-1 duration-300 md:ml-12 font-medium hover:cursor-pointer">
+                Services
+              </p>
             </div>
             <div className="flex flex-row gap-5">
-            <FiSun className="text-xl mt-3 hover:-translate-y-3 duration-300"/>
-            <button className="text-sm px-4 py-2 md:py-3 rounded-md text-white bg-blue-500 md:text-base hover:-translate-y-2 hover:bg-blue-600 duration-300">
-              Contact
-            </button>
+              <FiSun className="text-xl mt-3 hover:-translate-y-3 duration-300" />
+              <button className="text-sm px-4 py-2 md:py-3 rounded-md text-white bg-blue-500 md:text-base hover:-translate-y-2 hover:bg-blue-600 duration-300">
+                Contact
+              </button>
             </div>
           </div>
         </div>
