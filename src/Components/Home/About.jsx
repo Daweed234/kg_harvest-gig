@@ -28,7 +28,7 @@ const About = () => {
                             <br /> cumque dicta blanditiis laborum?
                         </p>
                         <Link to='/Aboutus'> 
-                        <button className="px-2 py-3 bg-blue-500 text-white rounded-lg hover:-translate-y-3 hover:bg-blue-600 duration-300 mt-10">About Us</button>
+                        <button className="px-9 py-3 bg-blue-500 text-white rounded-lg hover:-translate-y-3 hover:bg-blue-600 duration-300 mt-10">About Us</button>
                         </Link>
                                             </div>
                     <div>

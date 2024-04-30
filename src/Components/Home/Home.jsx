@@ -1,5 +1,6 @@
 import React from "react";
 import { MoveRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -12,9 +13,11 @@ const Home = () => {
                     </p>
                     <p></p>
                     <div className=" flex flex-row gap-2 mt-5">
-                        <button className="px-5 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg hover:-translate-y-3 duration-300">
+                       <Link to='/contact'>
+                       <button className="px-5 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg hover:-translate-y-3 duration-300">
                             Contact Us
                         </button>
+                       </Link>
                         <div className="hover:-translate-y-3 duration-300 flex flex-row">
                             <button className="px-5 py-3 text-black rounded-lg ">
                                 What we offer

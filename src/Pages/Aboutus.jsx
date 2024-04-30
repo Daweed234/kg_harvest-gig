@@ -78,14 +78,16 @@ function Aboutus() {
                                 <p className='font-bold text-lg'>Kabagema Celestin</p>
                                 <p>Founder and CEO</p>
                             </div>
-                        </div><div>
+                        </div>
+                        <div>
                             <img src={Image} alt="" />
                             <div className='text-center w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
                                 <p className='font-bold text-lg'>Kabagema Celestin</p>
                                 <p>Founder and CEO</p>
                             </div>
-                        </div><div>
-                            <img src={Image} alt="" />
+                        </div>
+                        <div>
+                            <img src={Image} className='' alt="" />
                             <div className='text-center w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
                                 <p className='font-bold text-lg'>Kabagema Celestin</p>
                                 <p>Founder and CEO</p>

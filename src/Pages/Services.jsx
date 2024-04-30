@@ -14,63 +14,63 @@ function Services() {
         <div className="flex flex-col">
         <div className='flex flex-row gap-9 m-7'>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>General Cleaning</p>
+              <p className='font-bold text-lg mb-3'>General Cleaning</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Mopping</p>
+              <p className='font-bold text-lg mb-3'>Mopping</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Sweeping</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
-            </div>
-          </div>
-          <div className='flex flex-row gap-9 m-7'>
-            <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Laundry</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
-            </div>
-            <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Sanitizaton</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
-            </div>
-            <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Deep Cleaning</p>
+              <p className='font-bold text-lg mb-3'>Sweeping</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
           </div>
           <div className='flex flex-row gap-9 m-7'>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Garden Maintainance</p>
+              <p className='font-bold text-lg mb-3'>Laundry</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Hygiene technique training</p>
+              <p className='font-bold text-lg mb-3'>Sanitizaton</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Groundskeeping</p>
+              <p className='font-bold text-lg mb-3'>Deep Cleaning</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
           </div>
           <div className='flex flex-row gap-9 m-7'>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Dusting</p>
+              <p className='font-bold text-lg mb-3'>Garden Maintainance</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Trash Removal</p>
+              <p className='font-bold text-lg mb-3'>Hygiene technique training</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Vacuming</p>
+              <p  className='font-bold text-lg mb-3'>Groundskeeping</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+            </div>
+          </div>
+          <div className='flex flex-row gap-9 m-7'>
+            <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
+              <p className='font-bold text-lg mb-3'>Dusting</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+            </div>
+            <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
+              <p className='font-bold text-lg mb-3'>Trash Removal</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+            </div>
+            <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
+              <p className='font-bold text-lg mb-3'>Vacuming</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
           </div>
           <div className='flex flex-row gap-9 m-7'>
             <div className=' w-[420px] px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-              <p>Landscaping care</p>
+              <p className='font-bold text-lg mb-3'>Landscaping care</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
           </div>
