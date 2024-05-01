@@ -14,3 +14,9 @@ code {
 *{
   font-family: "Poppins", sans-serif;
 }
+
+@layer base {
+  body {
+    /* @apply dark:bg-[#0D2538] bg-[#DCD6C8] */
+  }
+}

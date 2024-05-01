@@ -5,6 +5,7 @@ import Image from '../Img/image.jpg'
 import Footer from '../Components/Home/Footer'
 // import { Twitter } from "lucide-react";
 // import { Instagram } from "lucide-react";
+import Man from '../Img/Man.jpeg'
 
 function Aboutus() {
     return (
@@ -13,9 +14,10 @@ function Aboutus() {
             <div>
                 <div className=''>
                     <div>
-                        <p className='text-4xl flex text-center justify-center items-center mb-10 mt-64'>About Us</p>
-                        <p className='text-center mb-32'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error assumenda sit quas eaque omnis accusamus <br />magnam, quod tempora voluptas blanditiis? Doloribus voluptatem eligendi commodi ad nam officia ex, officiis distinctio?</p>
-                    </div>
+                    <p className='text-4xl flex text-center justify-center items-center mb-10 mt-24'>About Us</p>
+          <p className='text-center mb-44'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error assumenda sit quas eaque omnis accusamus <br />
+            magnam, quod tempora voluptas blanditiis? Doloribus voluptatem eligendi commodi ad nam officia ex, officiis distinctio?</p>
+         </div>
                     <div className='flex justify-center gap-56 mb-36'>
                         <p className='font-bold text-4xl'>Our Mission</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt <br />
@@ -73,21 +75,21 @@ function Aboutus() {
                     </div>
                     <div className="flex gap-10">
                         <div>
-                            <img src={Image} alt="" />
+                        <img className='w-64 h-64 border-slate-300 border-4 rounded-full mb-3' src={Man} alt="" />
                             <div className='text-center w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
                                 <p className='font-bold text-lg'>Kabagema Celestin</p>
                                 <p>Founder and CEO</p>
                             </div>
                         </div>
                         <div>
-                            <img src={Image} alt="" />
+                        <img className='w-64 h-64 border-slate-300 border-4 rounded-full mb-3' src={Man} alt="" />
                             <div className='text-center w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
                                 <p className='font-bold text-lg'>Kabagema Celestin</p>
                                 <p>Founder and CEO</p>
                             </div>
                         </div>
                         <div>
-                            <img src={Image} className='' alt="" />
+                        <img className='w-64 h-64 border-slate-300 border-4 rounded-full mb-3' src={Man} alt="" />
                             <div className='text-center w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
                                 <p className='font-bold text-lg'>Kabagema Celestin</p>
                                 <p>Founder and CEO</p>

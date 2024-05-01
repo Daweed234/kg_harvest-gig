@@ -18,12 +18,14 @@ const Home = () => {
                             Contact Us
                         </button>
                        </Link>
-                        <div className="hover:-translate-y-3 duration-300 flex flex-row">
+                       <Link to='/services'>
+                       <div className="hover:-translate-y-3 duration-300 flex flex-row">
                             <button className="px-5 py-3 text-black rounded-lg ">
                                 What we offer
                             </button>
                             <MoveRight className="mt-3 w-6" />
                         </div>
+                       </Link>
                     </div>
                 </div>
                 <div className="flex flex-row items-center justify-center gap-52 bg-blue-500 h-36 mt-36">

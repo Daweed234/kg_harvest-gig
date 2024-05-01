@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import Footer from '../Components/Home/Footer'
+
 
 function Services() {
   return (
@@ -75,6 +77,7 @@ function Services() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   )
