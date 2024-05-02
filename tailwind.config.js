@@ -12,6 +12,9 @@ module.exports = {
         'custom-red': '#e74c3c',
         // You can define as many colors as you need
       },
+      boxShadow:{
+        'box-shadow': '0 4px 6px rgba(0, 0, 0, 0.1)'
+      }
     },
   },
   plugins: [],

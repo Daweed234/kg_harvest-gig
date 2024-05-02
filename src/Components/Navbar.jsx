@@ -16,11 +16,11 @@ const Navbar = () => {
                 <p className="text-sm md:text-base hover:-translate-y-1 duration-300 font-medium hover:cursor-pointer">
                   Home
                 </p>
-                <p className="ml-8 text-sm md:text-base hover:-translate-y-1 duration-300 md:ml-12 font-medium hover:cursor-pointer">
-                  About
+                  <p className="ml-8 text-sm md:text-base hover:-translate-y-1 duration-300 md:ml-12 font-medium hover:cursor-pointer">
+                    About
                 </p>
                 <p className="ml-8 text-sm md:text-base hover:-translate-y-1 duration-300 md:ml-12 font-medium hover:cursor-pointer">
-                  Services
+                Services
                 </p>
             </div>
             <div className="flex flex-row gap-5">
