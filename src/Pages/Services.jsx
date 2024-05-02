@@ -1,9 +1,8 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Home/Footer'
-
-
-function Services() {
+// import { Mop } from 'react-lucide';
+  function Services() {
   return (
     <>
       <Navbar />
@@ -24,6 +23,7 @@ function Services() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>
             <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
+              {/* <Mop /> */}
               <p className='font-bold text-lg mb-3'>Sweeping</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
             </div>

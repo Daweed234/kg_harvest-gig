@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/Home";
 import Aboutus from "./Pages/Aboutus";
 import Services from "./Pages/Services";
-import NoPage from './Pages/NoPage';
+// import NoPage from './Pages/NoPage';
+import Navbar from "./Components/Navbar";
 import Contact from "./Pages/Contact";
 
 function App () {
@@ -15,9 +16,12 @@ function App () {
           <Route path="/Aboutus" element={<Aboutus />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path='*' element={<NoPage />} />
-        </Routes>
-      </BrowserRouter>
+          {/* <Route path='*' element={<NoPage />} /> */}
+       / </Routes>
+      </BrowserRouter> 
+      {/* <Navbar /> 
+      {/* <HomePage /> */}
+      {/* <Navbar /> */}
     </>
   );
 };
