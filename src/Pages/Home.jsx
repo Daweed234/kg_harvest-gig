@@ -24,13 +24,6 @@ const Home = () => {
                             <button className="px-5 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg hover:-translate-y-3 duration-300">
                                 Contact Us
                             </button>
-
-                            <div className="hover:-translate-y-3 duration-300 flex flex-row">
-                                <button className="px-5 py-3 text-black rounded-lg ">
-                                    What we offer
-                                </button>
-                                <MoveRight className="mt-3 w-6" />
-                            </div>
                         </div>
                     </div>
                     <div>{/* <img src={Pic} alt="" /> */}</div>
