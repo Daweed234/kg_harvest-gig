@@ -3,6 +3,7 @@ import HomePage from "./Pages/Home";
 import Aboutus from "./Pages/Aboutus";
 import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
+import './index.css'
 
 
 function App () {

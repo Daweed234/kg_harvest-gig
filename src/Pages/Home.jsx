@@ -28,22 +28,26 @@ const Home = () => {
                     </div>
                     <div>{/* <img src={Pic} alt="" /> */}</div>
                 </div>
-                <div className="flex flex-row items-center justify-center gap-52 bg-blue-500 h-36 mt-36">
-                    <div className="flex flex-col items-center">
-                        <p className="text-white font-medium text-2xl">870</p>
-                        <p className="text-white">Workers</p>
+                <div className="flex  flex-row items-center justify-center md:gap-20 gap-52 bg-blue-500 h-36 mt-36">
+                    <div className="md:grid md:gap-3">
+                        <div className=" justify-start flex flex-col items-center">
+                            <p className="text-white font-medium text-2xl">870</p>
+                            <p className="text-white">Workers</p>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <p className="text-white font-medium text-2xl">100+</p>
+                            <p className="text-white">Companies</p>
+                        </div>
                     </div>
-                    <div className="flex flex-col items-center">
-                        <p className="text-white font-medium text-2xl">100+</p>
-                        <p className="text-white">Companies</p>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <p className="text-white font-medium text-2xl">1</p>
-                        <p className="text-white">Headquater</p>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <p className="text-white font-medium text-2xl">3</p>
-                        <p className="text-white">Admins</p>
+                    <div className="md:grid md:gap-3">
+                        <div className="flex flex-col items-center">
+                            <p className="text-white font-medium text-2xl">1</p>
+                            <p className="text-white">Headquater</p>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <p className="text-white font-medium text-2xl">3</p>
+                            <p className="text-white">Admins</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -54,16 +58,11 @@ const Home = () => {
                 <div>{/* <img src={ } alt="" /> */}</div>
 
                 {/* Right */}
-
-
             </div>
 
-
-
-
-            <div className="flex gap-32">
+            <div className="flex gap-32 md:gap-10 md:flex-col">
                 <div>
-                    <img src={Water} className=" w-96 h-96 ml-32 rounded-xl" alt="" />
+                    <img src={Water} className=" w-96 h-96 ml-32 md:ml-8 md:w-72 md:h-72 rounded-xl" alt="" />
                 </div>
                 <div className="">
                     <p className="font-semibold px-12 text-3xl">Who we are</p>
@@ -89,9 +88,7 @@ const Home = () => {
                 </div>
             </div>
 
-
-
-            <div className="flex gap-32 ml-24 mt-20 mb-20">
+            <div className="flex md:flex-col md:gap-10 md:ml- gap-32 ml-24 mt-20 mb-20">
                 <div className="">
                     <p className="font-semibold px-12 text-3xl">What we offer</p>
                     <p className="text-sm py-8 px-12">
@@ -107,8 +104,8 @@ const Home = () => {
                         <br />
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
                         itaque <br />
-                        minima sapiente natus, earum inventore quis, necessitatibus hic
-                        aut, id <br />
+                        minima sapiente natus, earum inventore quis, necessitatibus hic aut,
+                        id <br />
                         amet magnam et accusamus fugiat aliquid adipisci beatae excepturi
                         sit.
                         <br />
@@ -167,85 +164,128 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-
-                </div>
+                <div></div>
             </div>
-
 
             <div>
                 <div>
-                    <p className='text-4xl flex text-center justify-center items-center mb-10 mt-24'>Services</p>
-                    <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error assumenda sit quas eaque omnis accusamus <br />
-                        magnam, quod tempora voluptas blanditiis? Doloribus voluptatem eligendi commodi ad nam officia ex, officiis distinctio?</p>
+                    <p className="text-4xl flex text-center justify-center items-center mb-10 mt-24">
+                        Services
+                    </p>
+                    <p className="text-center">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                        assumenda sit quas eaque omnis accusamus <br />
+                        magnam, quod tempora voluptas blanditiis? Doloribus voluptatem
+                        eligendi commodi ad nam officia ex, officiis distinctio?
+                    </p>
                 </div>
                 <div className="flex flex-col">
-                    <div className='flex flex-row gap-9 m-7'>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>General Cleaning</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                    <div className="flex flex-row gap-9 m-7">
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">General Cleaning</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Mopping</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Mopping</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
                             {/* <Mop /> */}
-                            <p className='font-bold text-lg mb-3'>Sweeping</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                            <p className="font-bold text-lg mb-3">Sweeping</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
                     </div>
-                    <div className='flex flex-row gap-9 m-7'>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Laundry</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                    <div className="flex flex-row gap-9 m-7">
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Laundry</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Sanitizaton</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Sanitizaton</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Deep Cleaning</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
-                        </div>
-                    </div>
-                    <div className='flex flex-row gap-9 m-7'>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Garden Maintainance</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
-                        </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Hygiene technique training</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
-                        </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Groundskeeping</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Deep Cleaning</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
                     </div>
-                    <div className='flex flex-row gap-9 m-7'>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Dusting</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                    <div className="flex flex-row gap-9 m-7">
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Garden Maintainance</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Trash Removal</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">
+                                Hygiene technique training
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
-                        <div className=' w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Vacuming</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Groundskeeping</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
                     </div>
-                    <div className='flex flex-row gap-9 m-7'>
-                        <div className=' w-[420px] px-4 py-6 rounded-lg bg-blue-300 shadow-xl'>
-                            <p className='font-bold text-lg mb-3'>Landscaping care</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam consequatur tenetur minus nisi officiis, veritatis quas </p>
+                    <div className="flex flex-row gap-9 m-7">
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Dusting</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
+                        </div>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Trash Removal</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
+                        </div>
+                        <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Vacuming</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-row gap-9 m-7">
+                        <div className=" w-[420px] px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
+                            <p className="font-bold text-lg mb-3">Landscaping care</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.Magnam
+                                consequatur tenetur minus nisi officiis, veritatis quas{" "}
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <div className="text-center items-center justify-center mt-32 mb-20">
                 <p className="text-2xl font-bold">CONTACT US</p>
@@ -292,7 +332,6 @@ const Home = () => {
                 </div>
             </div>
 
-            
             <Footer />
         </>
     );
