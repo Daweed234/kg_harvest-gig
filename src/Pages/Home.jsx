@@ -14,7 +14,6 @@ const Home = () => {
             <Navbar />
             <div className="w-full">
                 <div>
-                    {/* <img className=" absolute inset-0 z-0 " src={Bg} alt="" /> */}
                     <div className="flex flex-col ml-12 mt-16">
                         <p className="text-[64px] sm:text-[40px] font-medium">
                             Get Your Stuff <br />
@@ -26,10 +25,9 @@ const Home = () => {
                             </button>
                         </div>
                     </div>
-                    <div>{/* <img src={Pic} alt="" /> */}</div>
                 </div>
-                <div className="flex  flex-row items-center justify-center md:gap-20 gap-52 bg-blue-500 h-36 mt-36">
-                    <div className="md:grid md:gap-3">
+                <div className="flex flex-row items-center justify-center md:gap-20 gap-52 bg-blue-500 h-36 mt-36">
+                    <div className="flex gap-52 md:grid md:gap-4">
                         <div className=" justify-start flex flex-col items-center">
                             <p className="text-white font-medium text-2xl">870</p>
                             <p className="text-white">Workers</p>
@@ -39,7 +37,7 @@ const Home = () => {
                             <p className="text-white">Companies</p>
                         </div>
                     </div>
-                    <div className="md:grid md:gap-3">
+                    <div className="flex gap-52 md:grid md:gap-4">
                         <div className="flex flex-col items-center">
                             <p className="text-white font-medium text-2xl">1</p>
                             <p className="text-white">Headquater</p>
@@ -62,7 +60,11 @@ const Home = () => {
 
             <div className="flex gap-32 md:gap-10 md:flex-col">
                 <div>
-                    <img src={Water} className=" w-96 h-96 ml-32 md:ml-8 md:w-72 md:h-72 rounded-xl" alt="" />
+                    <img
+                        src={Water}
+                        className=" w-96 h-96 ml-32 md:ml-8 md:w-72 md:h-72 rounded-xl"
+                        alt=""
+                    />
                 </div>
                 <div className="">
                     <p className="font-semibold px-12 text-3xl">Who we are</p>

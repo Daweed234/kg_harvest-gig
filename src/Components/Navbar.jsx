@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="px-5 py-3 shadow-lg">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
-            <p className="font-bold text-lg hover:cursor-pointer">KG Harvest</p>
+            <p className="font-bold text-lg hover:cursor-pointer md:text-base md:font-semibold md:w-40">KG Harvest</p>
             <div className="flex justify-center items-center flex-grow">
               
                 <p className="text-sm md:text-base hover:-translate-y-1 duration-300 font-medium hover:cursor-pointer">
