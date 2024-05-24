@@ -88,7 +88,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="flex md:flex-col md:gap-10 md:ml- gap-32 ml-24 mt-20 mb-20">
+            <div className="flex md:flex-col md:gap-10 md: gap-32 px-24 mt-20 mb-20">
                 <div className="">
                     <p className="font-semibold px-12 text-3xl">What we offer</p>
                     <p className="text-sm py-8 px-12">
