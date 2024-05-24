@@ -90,9 +90,16 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="flex md:flex-col md:gap-10 md: gap-32 px-24 mt-20 mb-20">
+            <div className="flex gap-32 md:gap-10 md:flex-col py-20">
+                <div>
+                    <img
+                        src={Water}
+                        className=" w-96 h-96 ml-32 md:ml-8 md:w-72 md:h-72 rounded-xl"
+                        alt=""
+                    />
+                </div>
                 <div className="">
-                    <p className="font-semibold px-12 text-3xl">What we offer</p>
+                    <p className="font-semibold px-12 text-3xl">Who we are</p>
                     <p className="text-sm py-8 px-12">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
                         itaque <br />
@@ -113,9 +120,6 @@ const Home = () => {
                         <br />
                     </p>
                 </div>
-                <div>
-                    <img src={Water} className=" w-96 h-96 rounded-xl" alt="" />
-                </div>
             </div>
 
             <div className="flex flex-col justify-center items-center mb-32">
@@ -130,7 +134,7 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex gap-10">
+                <div className="flex gap-10 md:flex-col">
                     <div className="grid gap-4 items-center">
                         <img
                             className="w-56 h-56 border-slate-300 border-4 rounded-full"
@@ -182,7 +186,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="flex flex-col">
-                    <div className="flex flex-row gap-9 m-7">
+                    <div className="flex flex-row gap-9 m-7 md:flex-col">
                         <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
                             <p className="font-bold text-lg mb-3">General Cleaning</p>
                             <p>
@@ -206,7 +210,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-9 m-7">
+                    <div className="flex flex-row gap-9 m-7 md:flex-col">
                         <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
                             <p className="font-bold text-lg mb-3">Laundry</p>
                             <p>
@@ -229,7 +233,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-9 m-7">
+                    <div className="flex flex-row gap-9 m-7 md:flex-col">
                         <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
                             <p className="font-bold text-lg mb-3">Garden Maintainance</p>
                             <p>
@@ -254,7 +258,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-9 m-7">
+                    <div className="flex flex-row gap-9 m-7 md:flex-col">
                         <div className=" w-full px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
                             <p className="font-bold text-lg mb-3">Dusting</p>
                             <p>
@@ -277,7 +281,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-9 m-7">
+                    <div className="flex flex-row gap-9 m-7 ">
                         <div className=" w-[420px] px-4 py-6 rounded-lg bg-blue-300 shadow-xl">
                             <p className="font-bold text-lg mb-3">Landscaping care</p>
                             <p>
@@ -298,7 +302,7 @@ const Home = () => {
                     cumque, sit a consequuntur magni molestias?{" "}
                 </p>
             </div>
-            <div className="flex justify-center items-center gap-10 mt-12">
+            <div className="flex justify-center items-center gap-10 mt-12 md:flex-col">
                 <div className="flex flex-col items-center justify-center px-4 py-5 rounded-lg mt-5 shadow-md hover:shadow-2xl duration-300">
                     <FiMapPin className=" text-6xl" />
                     <p className="font-bold mt-2">Visit Us</p>
