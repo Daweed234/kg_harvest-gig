@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
 
 
   return (
-    <div className="sticky top-0  bg-white z-50">
+    <div className="sticky top-0 sm:bg-zinc-500 sm:w-auto bg-white z-50">
       <nav className="px-5 py-3 shadow-lg">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">

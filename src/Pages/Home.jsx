@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar";
 import Man from "../Img/Man.jpeg";
 import Footer from "../Components/Home/Footer";
 import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
-import Bg from "../Img/Bg.jpeg";
+// import Bg from "../Img/Bg.jpeg";
 import Water from "../Img/water.jpeg";
 
 const Home = () => {
