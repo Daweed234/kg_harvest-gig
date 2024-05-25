@@ -15,6 +15,8 @@ module.exports = {
         'md': {'max': '767px'},
   
         'sm': {'max': '639px'},
+
+        'dm': {'max': '376px'},
       },
       colors: {
         'custom-blue': '#3498db',
